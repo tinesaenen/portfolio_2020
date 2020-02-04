@@ -37,12 +37,12 @@ function hasScrolled() {
 }
 
 // button disappear
-$(document).ready(function() {
-  var par = $(".container_about_desktop");
-  $(par).hide();
+// $(document).ready(function() {
+//   var par = $(".container_about_desktop");
+//   $(par).hide();
 
-  $(".btn_about, .container_about_desktop").click(function(e) {
-    $(par).toggle();
-    e.preventDefault();
-  });
-});
+//   $(".btn_about, .container_about_desktop").click(function(e) {
+//     $(par).toggle();
+//     e.preventDefault();
+//   });
+// });
