@@ -25,18 +25,21 @@ h1 {
   color: black;
 }
 
+.card_beschrijving {
+  font-style: italic;
+}
+
 .titel {
   text-decoration: underline;
 }
 
-h3,
-.links {
+.social_link {
   font-size: 16px;
   font-family: "Barlow", sans-serif;
   color: black;
   margin: 0px;
   padding: 0px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h3:hover {
@@ -114,7 +117,7 @@ a:active {
 
 .detail_h1 {
   padding: 20px;
-  font-size: 18;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -139,6 +142,16 @@ a:active {
   overflow: hidden;
   max-width: 100%;
   padding: 10px 0px 0px 0px;
+}
+
+.conatainer_wallpaper_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 0px 0px 10px 0px;
 }
 
 /* .container_wallpaper,
@@ -176,7 +189,7 @@ a:active {
 .btn_linkedin {
   color: black;
   font-family: "Barlow", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   margin: 0px;
   padding: 0px;
   font-weight: 600;
