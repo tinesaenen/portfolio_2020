@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
+/* algemeen */
+
 .hide {
   display: none !important;
 }
@@ -23,10 +25,6 @@ h1 {
   padding-bottom: 25px;
   font-weight: 100;
   color: black;
-}
-
-.card_beschrijving {
-  font-style: italic;
 }
 
 .social_link {
@@ -62,6 +60,10 @@ a:active {
 
 .html_link:hover {
   /* opacity: 0.5; fix me */
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 /* cards achtergrond images */
@@ -108,7 +110,32 @@ a:active {
   background-image: url("img/card_images/rats\(groot\).jpg");
 }
 
-/* header detail paginas */
+.card_beschrijving {
+  font-style: italic;
+}
+
+/* header detail pagina's */
+
+.container_buttons {
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+
+.btn_home {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  margin: 0px;
+  padding: 20px 20px 0px 20px;
+  font-weight: 600;
+}
+
+.scheidingslijn_hoofd_titel {
+  height: 1px;
+  background-color: black;
+  margin: 10px 20px 0px 20px;
+}
 
 .btn_home_detail {
   color: black;
@@ -153,7 +180,7 @@ a:active {
   line-height: 1.4;
 }
 
-/* containers */
+/* containers detailpagina's*/
 
 .all_containers {
   padding: 20px;
@@ -200,44 +227,7 @@ a:active {
   padding: 0px 0px 10px 0px;
 }
 
-/* buttons */
-
-.container_buttons {
-  position: fixed;
-  background: white;
-  width: 100%;
-}
-
-.btn_home {
-  color: black;
-  font-family: "Barlow", sans-serif;
-  font-size: 22px;
-  margin: 0px;
-  padding: 20px 20px 0px 20px;
-  font-weight: 600;
-}
-
-.nav-up {
-  top: -120px;
-}
-
-.btn_about {
-  display: none;
-  text-decoration: underline;
-  margin: 20px;
-}
-
-.scheidingslijn_hoofd_titel {
-  height: 1px;
-  background-color: black;
-  margin: 10px 20px 0px 20px;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
-/* about */
+/* about container */
 
 .titel {
   font-weight: 600;
@@ -246,6 +236,22 @@ a:active {
 
 .container_about_mobile {
   padding: 100px 20px 0px 20px;
+}
+
+.btn_about {
+  display: none;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+/* scroll header */
+
+.nav-up {
+  top: -120px;
+}
+
+.copyright {
+  text-align: center;
 }
 
 /* ------------------------------responsive--------------------------------- */
