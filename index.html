@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="jquery-3.0.0.js"></script>
+    <script src="script_detail.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio Tine Saenen</title>
   </head>
   <body>
-    <!-- buttons -->
+    <!-- header -->
     <a href="index.html">
       <header class="container_buttons">
         <h2 class="btn_about nav-down">Over mezelf</h2>
-        <h2 class="btn_home">
+        <h2 class="btn_home_detail">
           Tine Saenen <span class="br"><br /></span>— Grafisch Ontwerp,
           <span class="nowrap">UX en UI Design</span>
         </h2>
@@ -21,19 +22,7 @@
       </header>
     </a>
 
-    <!-- <header class="container_buttons">
-      <h2 class="btn_about">Over mezelf</h2>
-      <h2 class="btn_linkedin">
-        <a
-          href="https://www.linkedin.com/in/tine-saenen-a0376315a/"
-          target="blank"
-        >
-          Tine Saenen <span class="br"><br /></span>— Grafisch Ontwerp,
-          <span class="br"><br /></span>UX en UI Design</a
-        >
-      </h2>
-    </header> -->
-    <!-- about mobil-->
+    <!-- about mobile-->
     <div class="container_about_mobile">
       <div class="container_about_tekst">
         <h1>
@@ -70,6 +59,7 @@
         <br />
       </div>
     </div>
+
     <!-- containers -->
     <div class="all_containers">
       <a href="/detail_pages/camscanner.html" class="html_link">
@@ -165,57 +155,5 @@
         <br />
       </div>
     </div>
-
-    <script>
-      // about button verdwijnt
-
-      $(document).ready(function() {
-        var par = $(".container_about_desktop");
-        $(par).hide();
-
-        $(".btn_about, .container_about_desktop").click(function(e) {
-          $(par).toggle();
-          e.preventDefault();
-        });
-      });
-
-      // scroll header
-
-      var didScroll;
-      var lastScrollTop = 0;
-      var delta = 1;
-      var navbarHeight = 30;
-
-      $(window).scroll(function(event) {
-        didScroll = true;
-      });
-
-      setInterval(function() {
-        if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-        }
-      }, 25);
-
-      function hasScrolled() {
-        var st = $(this).scrollTop();
-        if (Math.abs(lastScrollTop - st) <= delta) return;
-
-        if (st > lastScrollTop && st > navbarHeight) {
-          // Scroll Down
-          $("header")
-            .removeClass("nav-down")
-            .addClass("nav-up");
-        } else {
-          // Scroll Up
-          if (st + $(window).height() < $(document).height()) {
-            $("header")
-              .removeClass("nav-up")
-              .addClass("nav-down");
-          }
-        }
-        lastScrollTop = st;
-      }
-    </script>
   </body>
 </html>

@@ -116,7 +116,7 @@ a:active {
   margin: 0px;
   padding: 20px 20px 0px 20px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .container_buttons_detail {
@@ -237,28 +237,6 @@ a:active {
   white-space: nowrap;
 }
 
-/* .container_buttons {
-  position: fixed;
-  background: white;
-  width: 100vw;
-  margin: 0px;
-  padding: 20px 20px 20px 20px;
-}
-
-.btn_linkedin {
-  color: black;
-  font-family: "Barlow", sans-serif;
-  font-size: 22px;
-  margin: 0px;
-  padding: 0px;
-  font-weight: 600;
-}
-
-.btn_about {
-  display: none;
-  text-decoration: underline;
-} */
-
 /* about */
 
 .titel {
@@ -267,7 +245,7 @@ a:active {
 }
 
 .container_about_mobile {
-  padding: 130px 20px 0px 20px;
+  padding: 100px 20px 0px 20px;
 }
 
 /* ------------------------------responsive--------------------------------- */
