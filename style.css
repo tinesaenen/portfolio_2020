@@ -13,6 +13,7 @@ img {
   object-fit: contain;
 }
 
+/* tekst */
 h1 {
   padding-bottom: 30px;
   padding-top: 5px;
@@ -42,6 +43,12 @@ h3:hover {
   color: rgb(131, 131, 131);
 }
 
+/* links */
+
+a {
+  text-decoration: none;
+}
+
 a:link {
   color: black;
 }
@@ -54,7 +61,11 @@ a:active {
   color: rgb(131, 131, 131);
 }
 
-/* containers achtergrond images */
+.html_link:hover {
+  /* opacity: 0.5; fix me */
+}
+
+/* cards achtergrond images */
 
 .card_camscanner,
 .card_wallpaper,
@@ -98,13 +109,39 @@ a:active {
   background-image: url("img/card_images/rats\(groot\).jpg");
 }
 
+/* containers detailpagina's*/
+/* tekst */
+
+.detail_h1 {
+  padding: 20px;
+  font-size: 18;
+  font-weight: 600;
+}
+
+.detail_beschrijving {
+  padding: 0px 20px 20px 20px;
+  line-height: 1.4;
+}
+
 /* containers */
 
 .all_containers {
   padding: 20px;
 }
 
-.container_wallpaper,
+/* camscanner */
+
+.container_camscanner_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 10px 0px 0px 0px;
+}
+
+/* .container_wallpaper,
 .container_facebook,
 .container_transform_mhka,
 .container_rrrats {
@@ -124,7 +161,7 @@ a:active {
 
 .container_about {
   margin-bottom: 20px;
-}
+} */
 
 /* buttons */
 
