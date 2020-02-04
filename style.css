@@ -29,10 +29,6 @@ h1 {
   font-style: italic;
 }
 
-.titel {
-  text-decoration: underline;
-}
-
 .social_link {
   font-size: 16px;
   font-family: "Barlow", sans-serif;
@@ -119,6 +115,11 @@ a:active {
   padding: 20px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.scheidingslijn {
+  border-bottom: 1px solid black;
+  margin: 0px 20px 10px 20px;
 }
 
 .detail_beschrijving {
@@ -210,11 +211,10 @@ a:active {
 .btn_linkedin {
   color: black;
   font-family: "Barlow", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0px;
   padding: 0px;
   font-weight: 600;
-  text-decoration: underline;
 }
 
 .btn_about {
@@ -230,6 +230,7 @@ a:active {
 
 .titel {
   font-weight: 600;
+  text-decoration: none;
 }
 
 /* ------------------------------responsive--------------------------------- */
