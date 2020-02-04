@@ -154,6 +154,8 @@ a:active {
   padding: 0px 0px 10px 0px;
 }
 
+.conatainer_facial_rec_grid,
+.conatainer_transform_grid,
 .conatainer_facebook_grid {
   display: grid;
   grid-template-columns: 1fr;
