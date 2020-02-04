@@ -144,6 +144,16 @@ a:active {
   padding: 10px 0px 0px 0px;
 }
 
+.conatainer_reverie_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 5px 0px 10px 0px;
+}
+
 .conatainer_wallpaper_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
