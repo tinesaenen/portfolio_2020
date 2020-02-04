@@ -10,7 +10,18 @@
   </head>
   <body>
     <!-- buttons -->
-    <header class="container_buttons">
+    <a href="index.html">
+      <header class="container_buttons">
+        <h2 class="btn_about nav-down">Over mezelf</h2>
+        <h2 class="btn_home">
+          Tine Saenen <span class="br"><br /></span>— Grafisch Ontwerp,
+          <span class="nowrap">UX en UI Design</span>
+        </h2>
+        <div class="scheidingslijn_hoofd_titel"></div>
+      </header>
+    </a>
+
+    <!-- <header class="container_buttons">
       <h2 class="btn_about">Over mezelf</h2>
       <h2 class="btn_linkedin">
         <a
@@ -21,15 +32,15 @@
           <span class="br"><br /></span>UX en UI Design</a
         >
       </h2>
-    </header>
+    </header> -->
     <!-- about mobil-->
     <div class="container_about_mobile">
       <div class="container_about_tekst">
         <h1>
-          Ik studeerde vier jaar Grafisch Ontwerp aan Sint Lucas in Antwerpen
-          waar de liefde voor print stilaan veranderde in een liefde voor
-          schermen. Momenteel volg ik een specialisatiejaar User experience,
-          User interface en Frontend aan KdG (Nxt Multimedia Technology).
+          Na vier jaar Grafisch Ontwerp te studeren aan Sint Lucas in Antwerpen
+          veranderde de liefde voor print stilaan in een liefde voor schermen.
+          Momenteel volg ik een specialisatiejaar User experience, User
+          interface en Frontend aan KdG (NxT Multimedia Technology).
         </h1>
         <h1 class="social_link">
           <a href="https://www.instagram.com/tinesaenen/?hl=nl" target="blank">
@@ -156,6 +167,8 @@
     </div>
 
     <script>
+      // about button verdwijnt
+
       $(document).ready(function() {
         var par = $(".container_about_desktop");
         $(par).hide();
@@ -166,11 +179,43 @@
         });
       });
 
-      // $(document).ready(function() {
-      //   $(".btn_about, .container_about_desktop").click(function() {
-      //     $(".container_about_desktop").toggleClass("hide");
-      //   });
-      // });
+      // scroll header
+
+      var didScroll;
+      var lastScrollTop = 0;
+      var delta = 1;
+      var navbarHeight = 30;
+
+      $(window).scroll(function(event) {
+        didScroll = true;
+      });
+
+      setInterval(function() {
+        if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+        }
+      }, 25);
+
+      function hasScrolled() {
+        var st = $(this).scrollTop();
+        if (Math.abs(lastScrollTop - st) <= delta) return;
+
+        if (st > lastScrollTop && st > navbarHeight) {
+          // Scroll Down
+          $("header")
+            .removeClass("nav-down")
+            .addClass("nav-up");
+        } else {
+          // Scroll Up
+          if (st + $(window).height() < $(document).height()) {
+            $("header")
+              .removeClass("nav-up")
+              .addClass("nav-down");
+          }
+        }
+        lastScrollTop = st;
+      }
     </script>
   </body>
 </html>
