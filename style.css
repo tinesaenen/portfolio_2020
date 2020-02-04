@@ -54,10 +54,54 @@ a:active {
   color: rgb(131, 131, 131);
 }
 
+/* containers achtergrond images */
+
+.card_camscanner,
+.card_wallpaper,
+.card_facebook,
+.card_facial_recognition,
+.card_transform_mhka,
+.card_reverie,
+.card_rrrats {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card_camscanner {
+  background-image: url("img/card_images/Schermafbeelding\ 2020-01-29\ om\ 16.22.21.png");
+}
+
+.card_wallpaper {
+  background-image: url("img/card_images/ipad_wallpaper.png");
+}
+
+.card_facebook {
+  background-image: url("img/card_images/boek_open.png");
+}
+
+.card_facial_recognition {
+  background-image: url("img/card_images/krant.png");
+}
+
+.card_transform_mhka {
+  background-image: url("img/card_images/poster_blauw.jpg");
+}
+
+.card_reverie {
+  background-image: url("img/card_images/mockup_app.jpg");
+}
+
+.card_rrrats {
+  background-image: url("img/card_images/rats\(groot\).jpg");
+}
+
 /* containers */
 
 .all_containers {
-  padding: 60px 20px 0px 20px;
+  padding: 20px;
 }
 
 .container_wallpaper,
@@ -110,7 +154,7 @@ a:active {
 /* about */
 
 .container_about_mobile {
-  padding: 0px 20px 50px 20px;
+  padding: 50px 20px 0px 20px;
 }
 
 .titel {
