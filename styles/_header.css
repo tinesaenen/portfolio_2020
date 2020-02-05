@@ -29,3 +29,34 @@ header {
 .nowrap {
   white-space: nowrap;
 }
+
+.nav-up {
+  top: -120px;
+}
+
+/* ------------------------------responsive--------------------------------- */
+
+@media (min-width: 1025px) {
+  /* header */
+  header {
+    position: fixed;
+    margin: 0px;
+    top: 0px;
+    background-color: white;
+  }
+
+  .scheidingslijn_hoofd_titel {
+    height: 1px;
+    background-color: black;
+    margin: 0px 100px 0px 100px;
+  }
+
+  .btn_home {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px 100px 20px 100px;
+    font-weight: 600;
+  }
+}

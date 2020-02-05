@@ -46,76 +46,27 @@
   font-style: italic;
 }
 
-/* containers detailpagina's*/
-
-/* tekst */
-
-.detail_h1 {
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 80px;
+.copyright {
+  text-align: center;
 }
+/* ------------------------------responsive--------------------------------- */
 
-.tussentitel_h1 {
-  padding: 40px 20px 10px 20px;
-  font-size: 20px;
-  font-weight: 600;
-}
+@media (min-width: 1025px) {
+  .about_all_containers {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 150px 100px 80px 100px;
+  }
 
-.scheidingslijn {
-  border-bottom: 1px solid black;
-  margin: 0px 20px 10px 20px;
-}
+  .all_containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px;
+  }
 
-.detail_beschrijving {
-  padding: 0px 20px 20px 20px;
-  line-height: 1.4;
-}
-
-/* containers detailpagina's*/
-
-.all_containers {
-  padding: 20px;
-}
-
-.container_camscanner_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 10px 0px 0px 0px;
-}
-
-.conatainer_reverie_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 5px 0px 10px 0px;
-}
-
-.conatainer_wallpaper_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 0px 0px 10px 0px;
-}
-
-.conatainer_facial_rec_grid,
-.conatainer_transform_grid,
-.conatainer_facebook_grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 0px 0px 10px 0px;
+  .card_beschrijving {
+    font-size: 17px;
+    padding: 10px 0px 10px 0px;
+  }
 }

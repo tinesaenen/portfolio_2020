@@ -1,3 +1,14 @@
+.about_tekst {
+  padding-bottom: 30px;
+  padding-top: 5px;
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  padding-bottom: 25px;
+  font-weight: 100;
+  color: black;
+}
+
 .social_link {
   font-size: 16px;
   font-family: "Barlow", sans-serif;
@@ -31,4 +42,39 @@ a:active {
 
 .html_link:hover {
   /* opacity: 0.5; fix me */
+}
+
+.container_about {
+  padding: 100px 20px 0px 20px;
+}
+
+/* ------------------------------responsive--------------------------------- */
+
+@media (min-width: 1025px) {
+  h5 {
+    padding-bottom: 30px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    padding-bottom: 25px;
+    font-weight: 100;
+    color: black;
+  }
+
+  .social_link {
+    font-size: 18px;
+  }
+
+  .container_about {
+    padding: 0px 40px 0px 0px;
+  }
+
+  .container_about_desktop {
+    padding: 0px;
+  }
+
+  .container_about_tekst {
+    display: flex;
+    flex-direction: column;
+  }
 }

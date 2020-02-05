@@ -1,0 +1,92 @@
+.all_containers {
+  padding: 20px;
+}
+
+.container_camscanner_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 10px 0px 0px 0px;
+}
+
+.conatainer_reverie_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 5px 0px 10px 0px;
+}
+
+.conatainer_wallpaper_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 0px 0px 10px 0px;
+}
+
+.conatainer_facial_rec_grid,
+.conatainer_transform_grid,
+.conatainer_facebook_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 0px 0px 10px 0px;
+}
+
+.tussentitel_h1 {
+  padding: 40px 20px 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.detail_beschrijving {
+  padding: 0px 20px 20px 20px;
+  line-height: 1.4;
+}
+.detail_h1 {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 80px 0px 0px 0px;
+}
+
+/* ------------------------------responsive--------------------------------- */
+@media (min-width: 1025px) {
+  /* detailtext */
+  .detail_h1 {
+    padding: 0px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .detail_beschrijving {
+    padding: 0px;
+    font-size: 17px;
+  }
+
+  /* detailcontainer tekt plus beelden */
+
+  .detail_text_images_camscanner {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 30px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 120px 100px 20px 100px;
+  }
+
+  /* detailcontainer per project ingedeeld */
+
+  /* camscanner*/
+}
