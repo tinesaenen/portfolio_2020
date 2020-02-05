@@ -57,7 +57,11 @@
   padding: 20px;
   font-size: 18px;
   font-weight: 600;
-  margin: 90px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* ------------------------------responsive--------------------------------- */
@@ -92,11 +96,11 @@
 
   .detail_text_images_project {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1.3fr 4fr;
     grid-gap: 30px;
     overflow: hidden;
     max-width: 100%;
-    margin: 120px 100px 20px 100px;
+    margin: 140px 100px 20px 100px;
   }
 
   /* detailcontainer per project ingedeeld */
