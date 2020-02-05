@@ -73,4 +73,15 @@
     font-size: 17px;
     padding: 10px 0px 10px 0px;
   }
+
+  .card_camscanner:hover,
+  .card_camscanner:hover,
+  .card_wallpaper:hover,
+  .card_facebook:hover,
+  .card_facial_recognition:hover,
+  .card_transform_mhka:hover,
+  .card_reverie:hover,
+  .card_rrrats:hover {
+    opacity: 0.7;
+  }
 }

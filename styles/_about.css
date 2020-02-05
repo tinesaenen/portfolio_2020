@@ -18,8 +18,8 @@
   text-decoration: underline;
 }
 
-h3:hover {
-  color: rgb(131, 131, 131);
+.social_link:hover {
+  color: grey;
 }
 
 /* links */
