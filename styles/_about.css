@@ -69,6 +69,11 @@ a:active {
     padding: 0px 40px 0px 0px;
   }
 
+  .about_tekst {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
   .container_about_desktop {
     padding: 0px;
   }

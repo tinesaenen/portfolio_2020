@@ -55,9 +55,9 @@
 }
 .detail_h1 {
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  margin: 80px 0px 0px 0px;
+  margin: 90px 0px 0px 0px;
 }
 
 /* ------------------------------responsive--------------------------------- */
@@ -72,7 +72,7 @@
 
   .detail_beschrijving {
     padding: 0px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   /* detailcontainer tekt plus beelden */
@@ -129,5 +129,27 @@
     grid-gap: 10px;
     overflow: hidden;
     max-width: 100%;
+  }
+
+  /* rrrats */
+
+  .conatainer_rrrats_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 5px;
+  }
+
+  /* transform */
+
+  .conatainer_transform_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 5px;
   }
 }
