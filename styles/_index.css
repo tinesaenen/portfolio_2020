@@ -58,7 +58,7 @@
     margin: 150px 100px 80px 100px;
   }
 
-  .all_containers {
+  .all_containers_index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;

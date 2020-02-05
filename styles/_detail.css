@@ -77,7 +77,20 @@
 
   /* detailcontainer tekt plus beelden */
 
-  .detail_text_images_camscanner {
+  .all_containers {
+    margin: 0px 100px 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px;
+  }
+
+  .tussentitel_h1 {
+    margin: 80px 100px 20px 100px;
+    padding: 0px;
+  }
+
+  .detail_text_images_project {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 30px;
@@ -89,4 +102,22 @@
   /* detailcontainer per project ingedeeld */
 
   /* camscanner*/
+
+  .container_camscanner_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  /* wallpapers*/
+
+  .conatainer_wallpaper_grid_big {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+  }
 }
