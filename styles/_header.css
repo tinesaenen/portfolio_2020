@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+
+.btn_home {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  margin: 0px;
+  padding: 20px 20px 0px 20px;
+  font-weight: 600;
+}
+
+.scheidingslijn_hoofd_titel {
+  height: 1px;
+  background-color: black;
+  margin: 10px 20px 0px 20px;
+}
+
+.header_detail {
+  position: fixed;
+  top: 0px;
+  background: white;
+  width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

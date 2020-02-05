@@ -1,0 +1,34 @@
+.social_link {
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+h3:hover {
+  color: rgb(131, 131, 131);
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: rgb(131, 131, 131);
+}
+
+.html_link:hover {
+  /* opacity: 0.5; fix me */
+}
