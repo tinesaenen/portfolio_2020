@@ -1,4 +1,7 @@
 /* cards achtergrond images */
+.all_containers_index {
+  margin: 0px 20px 0px 20px;
+}
 
 .card_camscanner,
 .card_wallpaper,
@@ -63,6 +66,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     padding: 0px;
+    margin: 0px;
   }
 
   .card_beschrijving {
