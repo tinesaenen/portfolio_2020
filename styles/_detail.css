@@ -120,4 +120,14 @@
     overflow: hidden;
     max-width: 100%;
   }
+
+  /* reverie */
+
+  .conatainer_reverie_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+  }
 }
