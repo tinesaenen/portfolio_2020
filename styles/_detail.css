@@ -156,4 +156,9 @@
     max-width: 100%;
     margin-top: 5px;
   }
+
+  /* sticky tekst */
+  .detail_tekst_sticky {
+    /* position: fixed; */
+  }
 }
